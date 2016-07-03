@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238946AA1D0E478300004C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238946A91D0E478300004C57 /* AppDelegate.swift */; };
+		238946AC1D0E478300004C57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238946AB1D0E478300004C57 /* ViewController.swift */; };
+		238946AF1D0E478300004C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238946AD1D0E478300004C57 /* Main.storyboard */; };
+		238946B11D0E478300004C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238946B01D0E478300004C57 /* Assets.xcassets */; };
+		238946B41D0E478300004C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238946B21D0E478300004C57 /* LaunchScreen.storyboard */; };
+		238946BF1D0E482800004C57 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238946BC1D0E482800004C57 /* GameHelper.swift */; };
+		238946C01D0E482800004C57 /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238946BD1D0E482800004C57 /* GameUtils.swift */; };
+		238946C11D0E482800004C57 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238946BE1D0E482800004C57 /* SCNAction+Extensions.swift */; };
+		238946C31D0E483700004C57 /* MrPig.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 238946C21D0E483700004C57 /* MrPig.scnassets */; };
+		23B980301D1EBC5B00DC9F3D /* chr_knight.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B9802F1D1EBC5B00DC9F3D /* chr_knight.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		238946A61D0E478300004C57 /* Mr.Pig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mr.Pig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		238946A91D0E478300004C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		238946AB1D0E478300004C57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		238946AE1D0E478300004C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		238946B01D0E478300004C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238946B31D0E478300004C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		238946B51D0E478300004C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238946BC1D0E482800004C57 /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		238946BD1D0E482800004C57 /* GameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+		238946BE1D0E482800004C57 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
+		238946C21D0E483700004C57 /* MrPig.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = MrPig.scnassets; path = GameUtils/MrPig.scnassets; sourceTree = "<group>"; };
+		23B9802F1D1EBC5B00DC9F3D /* chr_knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chr_knight.png; path = Mr.Pig/chr_knight.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238946A31D0E478300004C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2389469D1D0E478300004C57 = {
+			isa = PBXGroup;
+			children = (
+				23B9802F1D1EBC5B00DC9F3D /* chr_knight.png */,
+				238946A81D0E478300004C57 /* Mr.Pig */,
+				238946A71D0E478300004C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		238946A71D0E478300004C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238946A61D0E478300004C57 /* Mr.Pig.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238946A81D0E478300004C57 /* Mr.Pig */ = {
+			isa = PBXGroup;
+			children = (
+				238946A91D0E478300004C57 /* AppDelegate.swift */,
+				238946AB1D0E478300004C57 /* ViewController.swift */,
+				238946AD1D0E478300004C57 /* Main.storyboard */,
+				238946B01D0E478300004C57 /* Assets.xcassets */,
+				238946B21D0E478300004C57 /* LaunchScreen.storyboard */,
+				238946B51D0E478300004C57 /* Info.plist */,
+				238946C21D0E483700004C57 /* MrPig.scnassets */,
+				238946BB1D0E482800004C57 /* GameUtils */,
+			);
+			path = Mr.Pig;
+			sourceTree = "<group>";
+		};
+		238946BB1D0E482800004C57 /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				238946BC1D0E482800004C57 /* GameHelper.swift */,
+				238946BD1D0E482800004C57 /* GameUtils.swift */,
+				238946BE1D0E482800004C57 /* SCNAction+Extensions.swift */,
+			);
+			path = GameUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		238946A51D0E478300004C57 /* Mr.Pig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238946B81D0E478300004C57 /* Build configuration list for PBXNativeTarget "Mr.Pig" */;
+			buildPhases = (
+				238946A21D0E478300004C57 /* Sources */,
+				238946A31D0E478300004C57 /* Frameworks */,
+				238946A41D0E478300004C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mr.Pig;
+			productName = Mr.Pig;
+			productReference = 238946A61D0E478300004C57 /* Mr.Pig.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2389469E1D0E478300004C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Andrew Campbell";
+				TargetAttributes = {
+					238946A51D0E478300004C57 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q635R334ZT;
+						DevelopmentTeamName = "Andrew Campbell";
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 238946A11D0E478300004C57 /* Build configuration list for PBXProject "Mr.Pig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2389469D1D0E478300004C57;
+			productRefGroup = 238946A71D0E478300004C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				238946A51D0E478300004C57 /* Mr.Pig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238946A41D0E478300004C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238946B41D0E478300004C57 /* LaunchScreen.storyboard in Resources */,
+				238946B11D0E478300004C57 /* Assets.xcassets in Resources */,
+				238946AF1D0E478300004C57 /* Main.storyboard in Resources */,
+				238946C31D0E483700004C57 /* MrPig.scnassets in Resources */,
+				23B980301D1EBC5B00DC9F3D /* chr_knight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238946A21D0E478300004C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238946AC1D0E478300004C57 /* ViewController.swift in Sources */,
+				238946C11D0E482800004C57 /* SCNAction+Extensions.swift in Sources */,
+				238946C01D0E482800004C57 /* GameUtils.swift in Sources */,
+				238946AA1D0E478300004C57 /* AppDelegate.swift in Sources */,
+				238946BF1D0E482800004C57 /* GameHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		238946AD1D0E478300004C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238946AE1D0E478300004C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		238946B21D0E478300004C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238946B31D0E478300004C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		238946B61D0E478300004C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		238946B71D0E478300004C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		238946B91D0E478300004C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mr.Pig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jake.campbell.enterprises.Mr-Pig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		238946BA1D0E478300004C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mr.Pig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jake.campbell.enterprises.Mr-Pig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238946A11D0E478300004C57 /* Build configuration list for PBXProject "Mr.Pig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238946B61D0E478300004C57 /* Debug */,
+				238946B71D0E478300004C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238946B81D0E478300004C57 /* Build configuration list for PBXNativeTarget "Mr.Pig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238946B91D0E478300004C57 /* Debug */,
+				238946BA1D0E478300004C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2389469E1D0E478300004C57 /* Project object */;
+}
