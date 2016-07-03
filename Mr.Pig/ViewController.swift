@@ -377,7 +377,7 @@ class ViewController: UIViewController {
         let nodesInView = scnView.nodesInsideFrustum(withPointOfView: cameraNode)
         if nodesInView.contains(wolfNode){
             
-            // turn wolf towards and move towards pig
+            // turn wolf towards and move towards pig - " adding Git Now  ""
             if pigNode.position.isInsideWolfPatrolBounds(){
                 let yAngle = atan2f((pigNode.position.x - wolfNode.position.x), (pigNode.position.z - wolfNode.position.z))
                 wolfNode.run(SCNAction.rotateTo(x: 0, y: CGFloat(yAngle), z: 0, duration: 0.2, shortestUnitArc: true))
