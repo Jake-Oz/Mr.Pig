@@ -202,7 +202,7 @@ class ViewController: UIViewController {
                 driveLeftAction.speed = 2.0
                 driveRightAction.speed = 2.0
             }
-            // Let vehicle drive towards its facing direction
+            // Let vehicle drive towards its facing direction  ..
             if node.eulerAngles.y > 0 {
                 node.run(driveLeftAction)
             } else {
